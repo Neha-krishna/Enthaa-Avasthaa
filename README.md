@@ -93,7 +93,7 @@ User → Upload Food Image → Next.js Frontend → FastAPI Backend → Image Pr
 
 ### Project Demo
 # Video
-[Enthaa-Avasthaa](./ENTHAA AVASTHAA.mp4)
+[Enthaa-Avasthaa](https://drive.google.com/file/d/1O5cWiz_l8K4zpsfQYEVaUFmlQt06eHau/view?usp=sharing)
 
 
 ## Team Contributions
