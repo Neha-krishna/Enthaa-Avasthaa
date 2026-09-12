@@ -2,96 +2,107 @@
 
 
 
-# [Project Name] 🎯
+# NextGen 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: NextGen
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: Neha Krishna - Rajiv Gandhi Institute of Technology,Kottayam
+- Member 2: Chandhana Saji - Rajiv Gandhi Institute of Technology,Kottayam
 
 ### Project Description
-[2-3 lines about what your project does]
+Enthaa-Avasthaa is a fun web application that uses image processing and rule-based analysis to solve two completely unnecessary food problems.
+It analyzes black spots on bananas and predicts the melting risk of ice cream based on environmental conditions such as temperature, humidity and sun exposure.
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+Humanity has bigger problems to solve, but apparently we also need to know:
+
+- How many black spots are on a banana?
+- How close is an ice cream to becoming soup?
+
+Because if technology can do it, why not?
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+We built Enthaa-Avasthaa
+
+Banana Spot Crisis analyzes an uploaded banana image and estimates the number, density and severity of dark spots.
+
+Ice Cream Meltdown takes an ice cream image along with temperature, humidity and sun exposure, then calculates a playful meltdown risk and estimated stability time.
+
+Because apparently these problems needed technology.
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- Languages: Python, TypeScript, HTML, CSS
+- Frameworks: Next.js, React, FastAPI
+- Libraries: Pillow (PIL), NumPy
+- Tools: Git, GitHub, Visual Studio Code, Uvicorn, npm
 
 For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+- Laptop or desktop computer
+- Minimum 4 GB RAM
+- Internet connection
+- Webcam or phone camera for capturing food images
 
 ### Implementation
+
 For Software:
+
 # Installation
-[commands]
+
+## Backend
+cd backend
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+
+## Frontend
+cd frontend
+npm install
 
 # Run
-[commands]
+
+## Backend
+cd backend
+venv\Scripts\activate
+python run.py
+
+## Frontend
+cd frontend
+npm run dev
 
 ### Project Documentation
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+<img width="1891" height="900" alt="Home Page" src="https://github.com/user-attachments/assets/f3fe0243-f630-4220-b53d-c9ac938e9339" />
+Home page showing the Enthaa-Avasthaa landing page and the two food analysis features.
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+<img width="1885" height="901" alt="Banana black spot counter" src="https://github.com/user-attachments/assets/6d4fc591-7f31-45bf-9d82-5a5b1e545999" />
+Banana Spot Crisis analyzer detecting and evaluating black spots on an uploaded banana image.
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+<img width="1917" height="910" alt="Ice cream meltdown analyzer" src="https://github.com/user-attachments/assets/cfd62484-4f24-4f9a-9b75-348441e144ed" />
+Ice Cream Meltdown analyzer estimating melting risk based on the uploaded image and environmental conditions.
 
 # Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
-
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
+User → Upload Food Image → Next.js Frontend → FastAPI Backend → Image Processing / Analysis → Result → Display on Website
 
 ### Project Demo
 # Video
-[Add your demo video link here]
+
 *Explain what the video demonstrates*
 
 # Additional Demos
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- Neha Krishna: Backend
+- Chandhana Saji: Frontend
+
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
